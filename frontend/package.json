@@ -1,7 +1,8 @@
 {
-  "name": "sennu",
+  "name": "senu",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "icon": "./icon.png",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",

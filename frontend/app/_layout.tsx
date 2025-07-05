@@ -28,6 +28,7 @@ export default function RootLayout() {
       {/* The +not-found screen is a fallback for unmatched routes */}
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="index" options={{ title: "Senu chatly" }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Button, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import MessageBubble from "../../components/MessageBubble";
-import { connectSocket, getSocket } from "../services/socket";
+import { connectSocket, getSocket } from "../../lib/socket";
 
 export default function ChatScreen() {
   const [message, setMessage] = useState("");
